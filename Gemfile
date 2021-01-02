@@ -26,8 +26,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 gem 'async-websocket', '~>0.8.0'
+gem 'prime'
 gem 'slack-ruby-bot'
-
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rubocop', require: false
