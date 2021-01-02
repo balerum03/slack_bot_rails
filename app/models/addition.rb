@@ -1,4 +1,5 @@
 require 'slack-ruby-bot'
+# This class is for all the logic implementations
 class Addition < SlackRubyBot::MVC::Model::Base
   attr_accessor :_line
 
@@ -6,15 +7,13 @@ class Addition < SlackRubyBot::MVC::Model::Base
     self._line = line
     input = parse(_line)
     result = nil
-    r = /\A\p{Alnum}*\p{L}\p{Alnum}*\z/
     input.each do |x|
-      if x.match?(r)
+      if x.match?(/\A\p{Alnum}*\p{L}\p{Alnum}*\z/)
         result = 'Error'
         break
       end
     end
     result ||= input.map(&:to_i).reduce(:+)
-    result
   end
 
   private

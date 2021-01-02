@@ -14,10 +14,9 @@ class AdditionBot < SlackRubyBot::Bot
     end
   end
 end
-  model = Addition.new
-  view = AdditionView.new
-  otracosa = AdditionBot.new
-  @controller = AdditionsController.new(model, view)
-  @controller.class.command_class.routes.each do |route|
-    warn route.inspect
-  end
+model = Addition.new
+view = AdditionView.new
+@controller = AdditionsController.new(model, view)
+@controller.class.command_class.routes.each do |route|
+  warn route.inspect
+end
