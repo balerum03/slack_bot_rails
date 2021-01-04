@@ -1,35 +1,37 @@
 # Slack Bot
 ![](https://raw.githubusercontent.com/slack-ruby/slack-ruby-client/master/slack.png)
 
-This project consist in the creation of a bot using the SlackRubyBot API, once connected you can interact with the bot using thow commands "add" and "prime?".
-- add will solve a simple sum for you and send it to you on the Slack chat as a message.
+This project consist in the creation of a bot using the SlackRubyBot API, once connected you can interact with the bot using two commands, "add" and "prime?".
+- add, will solve a simple sum for you and send it to you on the Slack chat as a message.
 ![](docs/add_message.png)
-- prime? will tell you all prime numbers below the number you enter.
+- prime?, will tell you all prime numbers below the number you enter.
 ![](docs/prime_message.png)
 
 ## How to use this Slack Bot.
-* After clonning this Repo run
+* After cloning this Repo, run
 ```
 bundle install
 ```
 * Create an Slack Bot user.
-  you can do this by visiting this [page](https://slack.com/services/new/bot)
-  
-* Once your bot is created take your token and run (type your token where it says "your_token")
-  Slack API tokens look something like this: xoxb-1629611589552-1599147917622-JlP1vu1BLmFwQrcW7YswpG9j
+  You can do this by visiting this [page](https://slack.com/services/new/bot)
+
+* Once your bot is created take your token and run (type your token where it says "your_token").
+
 ```
 SLACK_API_TOKEN= your_token rails server
 ```
+![](bot_token.png)
+
 * You'll see under the Apps tab, that your bot is going to be there so that you can interact with it while the server is running.
   ![](docs/apps_tab.png)
-  
+
  ## Built with
  - Ruby v2.7.0
  - Ruby on Rails 6.0.3.4
  - [Slack Ruby Client](https://github.com/slack-ruby/slack-ruby-client#create-a-new-bot-integration)
  - PostgreSQL
- 
- 
+
+
 ## Author
 Adan Fernandez Bonilla
 
