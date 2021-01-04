@@ -3,8 +3,10 @@
 
 This project consist in the creation of a bot using the SlackRubyBot API, once connected you can interact with the bot using two commands, "add" and "prime?".
 - add, will solve a simple sum for you and send it to you on the Slack chat as a message.
+
 ![](docs/add_message.png)
 - prime?, will tell you all prime numbers below the number you enter.
+
 ![](docs/prime_message.png)
 
 ## How to use this Slack Bot.
@@ -20,7 +22,7 @@ bundle install
 ```
 SLACK_API_TOKEN= your_token rails server
 ```
-![](bot_token.png)
+![](docs/bot_token.png)
 
 * You'll see under the Apps tab, that your bot is going to be there so that you can interact with it while the server is running.
   ![](docs/apps_tab.png)
