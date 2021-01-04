@@ -25,6 +25,7 @@ SLACK_API_TOKEN= your_token rails server
 ![](docs/bot_token.png)
 
 * You'll see under the Apps tab, that your bot is going to be there so that you can interact with it while the server is running.
+
   ![](docs/apps_tab.png)
 
  ## Built with
