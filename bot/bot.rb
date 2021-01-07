@@ -18,6 +18,7 @@ class AdditionBot < SlackRubyBot::Bot
 end
 
 class PrimeBot < SlackRubyBot::Bot
+
   help do
     title 'Prime bot'
     desc 'This bot will tell you all the prime numbers below the entered number'

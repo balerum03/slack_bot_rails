@@ -234,6 +234,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   async-websocket (~> 0.8.0)
   bootsnap (>= 1.4.2)
   byebug

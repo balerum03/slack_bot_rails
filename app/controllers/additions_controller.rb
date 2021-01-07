@@ -1,7 +1,7 @@
 require 'slack-ruby-bot'
 # This class sets the commands for the bot to respond to
 class AdditionsController < SlackRubyBot::MVC::Controller::Base
-  def add
+  def sum
     result = model.addition_logic(match[:expression])
     if result == 'Error'
       view.addition_failed
