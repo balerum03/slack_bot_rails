@@ -3,10 +3,23 @@ import PropTypes from "prop-types"
 class Message extends React.Component {
 
   render () {
+    const items = []
+    let index = 0
+    for(const number of this.props.data) {
+      items.push(<td key={index} className="table_element">{number}</td>)
+      index = index + 1
+    }
     return (
       <React.Fragment>
-        <p>This is are the prime numbers you got from the bot</p>
-        {this.props.data}
+      <div className="adjust">
+        <table>
+          <tbody>
+            <tr>
+              {items}
+            </tr>
+          </tbody>
+        </table>
+      </div>
       </React.Fragment>
     );
   }
