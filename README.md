@@ -37,6 +37,7 @@ SLACK_API_TOKEN= your_token rails server
 
 ## Video presentation
 [YouTube video part. 1](https://youtu.be/17JrNUn6ksE)
+
 [YouTube video part. 2](https://youtu.be/GobnJNrYnec)
 
 ## Author
