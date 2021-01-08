@@ -32,10 +32,12 @@ SLACK_API_TOKEN= your_token rails server
  - Ruby v2.7.0
  - Ruby on Rails 6.0.3.4
  - [Slack Ruby Client](https://github.com/slack-ruby/slack-ruby-client#create-a-new-bot-integration)
+ - [React-rails](https://github.com/reactjs/react-rails)
  - PostgreSQL
 
 ## Video presentation
-[YouTube video](https://youtu.be/17JrNUn6ksE)
+[YouTube video part. 1](https://youtu.be/17JrNUn6ksE)
+[YouTube video part. 2](https://youtu.be/GobnJNrYnec)
 
 ## Author
 Adan Fernandez Bonilla
