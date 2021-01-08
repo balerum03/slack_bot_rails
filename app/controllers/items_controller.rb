@@ -1,5 +1,4 @@
 class ItemsController < ApplicationController
-  
   def create
     @item = Item.new(prime_numbers: [Rails.cache.read('message')])
     respond_to do |format|

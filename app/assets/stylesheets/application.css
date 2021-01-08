@@ -1,4 +1,4 @@
-.adjust{
+.adjust {
   display: flex;
   justify-content: center;
   max-width: 100%;
@@ -7,6 +7,8 @@
 .table_element {
   padding: 1rem;
 }
- table, td {
-   border: 1px solid black
+
+table,
+td {
+  border: 1px solid black
  }
