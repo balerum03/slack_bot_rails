@@ -5,6 +5,7 @@ class PrimesController < SlackRubyBot::MVC::Controller::Base
     evaluation = model.prime_logic(match[:expression])
 
     if evaluation
+      Rails.cache.write('message', evaluation)
       view.a_prime(evaluation)
     else
       view.not_prime(match[:expression])

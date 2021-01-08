@@ -21,12 +21,13 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'activerecord'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
 gem 'async-websocket', '~>0.8.0'
+gem 'bootstrap'
 gem 'prime'
+gem 'react-rails'
 gem 'slack-ruby-bot'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
