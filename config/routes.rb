@@ -2,5 +2,5 @@
 
 Rails.application.routes.draw do
   root 'messages#index'
-  resources 'items'
+  resources 'items', :only => [:create]
 end
